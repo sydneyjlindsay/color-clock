@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,700);
+
+* {margin: 0; padding: 0;}
+
+html, body {height: 100%;}
+
+#clock {
+	color: white; font: 150px/150px Fira Sans; height: 64px; font-weight: normal;
+	text-shadow: 2px 2px 2px #D9D9D4;
+	position: relative; top: 40%;
+	text-align: center;
+}
+
+body {
+	transition: background-color 1.25s ease;
+}
